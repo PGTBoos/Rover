@@ -33,7 +33,8 @@ ESP32 Code:
 cppWire.begin(13, 16); // SDA=13, SCL=16
 
 **Sample code**
-~~~
+Arduino
+~~~C
 #include <Wire.h>
 
 #define I2C_ADDRESS 8  // Slave address
@@ -86,7 +87,7 @@ void requestEvent() {
 ~~~
 
 ESP32
-~~~
+~~~C
 #include <Wire.h>
 
 #define I2C_SDA 13
